@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: bisque;
+}
+.container {
+	background-color: aqua;
+	width: 100vh;
+	height: auto;
+	margin: 5% auto;
+}
+p {
+	margin-bottom: 10px;
+}
+.listaCumparaturi {
+	display: flex;
+	border: 10px black solid;
+	gap: 10px;
+	justify-content: center;
+}
+.listaCumparaturi li {
+	border: 3px red solid;
+}
